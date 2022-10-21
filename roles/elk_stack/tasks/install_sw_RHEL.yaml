@@ -5,8 +5,8 @@
 - name: install_sw_RHEL | Install Java
   yum:
     name:
-      - java-1.11.0-openjdk
-      - java-1.11.0-openjdk-devel
+      - java-11-openjdk
+      - java-11-openjdk-devel
     state: latest
 
 - name: install_sw_RHEL | Grab Public Signing Key
